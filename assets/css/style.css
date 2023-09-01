@@ -32,6 +32,7 @@ a:focus {
 p {
   padding: 0;
   margin: 0 0 30px 0;
+  font-size: x-large;
 }
 
 h1,
@@ -45,6 +46,10 @@ h6 {
   margin: 0 0 20px 0;
   padding: 0;
 }
+
+/* h4 .p-10{ 
+  padding: 10px !important;
+} */
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -659,11 +664,14 @@ section {
 #why-us .why-us-content .features {
   margin: 0 0 15px 0;
   padding: 0;
+  position: relative;
 }
 
 #why-us .why-us-content .features i {
   font-size: 36px;
-  float: left;
+  position: absolute;
+  top: -10px;
+  /* float: left; */
 }
 
 #why-us .why-us-content .features h4 {
@@ -671,7 +679,7 @@ section {
   font-weight: 600;
   margin-left: 56px;
   color: #413e66;
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
 }
 
 #why-us .why-us-content .features p {
@@ -748,12 +756,39 @@ section {
 /* Features Section
 --------------------------------*/
 #features {
-  padding: 80px 0;
+  padding: 40px 0;
 }
 
 #features h4 {
   font-weight: 600;
   font-size: 24px;
+}
+
+#features .why-us-content .features {
+  margin: 0 0 15px 0;
+  padding: 0;
+  position: relative;
+}
+
+#features .why-us-content .features i {
+  font-size: 36px;
+  position: absolute;
+  top: -10px;
+  /* float: left; */
+}
+
+#features .why-us-content .features h4 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-left: 56px;
+  color: #413e66;
+  /* margin-bottom: 5px; */
+}
+
+#features .why-us-content .features p {
+  font-size: 16px;
+  margin-left: 56px;
+  color: #555186;
 }
 
 /* Portfolio Section
