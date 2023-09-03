@@ -475,6 +475,24 @@ h6 {
   background: #0a98c0;
 }
 
+#features .btn-get-started{
+  font-family: "Montserrat", sans-serif;
+  /* font-size: 13px; */
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #1bb1dc;
+  color: #fff;
+}
+#features .btn-get-started:hover{
+  background: #0a98c0;
+}
+
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
@@ -773,7 +791,7 @@ section {
 #features .why-us-content .features i {
   font-size: 36px;
   position: absolute;
-  top: -10px;
+  top: -3px;
   /* float: left; */
 }
 
@@ -790,6 +808,79 @@ section {
   margin-left: 56px;
   color: #555186;
 }
+
+#features .why-us-content p,h4{
+  line-height: 1.8;
+
+}
+
+/* teach-content Section
+--------------------------------*/
+
+
+#why-us .teach-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+#why-us .teach-content ul li {
+  padding-bottom: 10px;
+}
+
+#why-us .teach-content ul li i {
+  font-size: 20px;
+  padding-right: 4px;
+  padding-left: 5px;
+  color: #1bb1dc;
+  padding-top: 7px;
+
+}
+
+.teach-content ul li {
+  position: relative;
+  font-size: larger;
+
+}
+
+.teach-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  /* align-items: center; */
+}
+
+.teach-item {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  opacity: 0;
+  text-align: justify;
+  animation: fade-in 1s ease-in-out forwards;
+  display: flex;
+}
+.teach-item i {
+  margin-right: 10px;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.icon {
+  position: absolute;
+  top: 9;
+  right: -32;
+  margin-right: 10px; /* Optional: add some space between the icon and the text */
+}
+
 
 /* Portfolio Section
 --------------------------------*/
