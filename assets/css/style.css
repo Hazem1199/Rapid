@@ -840,17 +840,16 @@ section {
 /* teach-content Section
 --------------------------------*/
 
-
-#why-us .teach-content ul {
+ .teach-content ul {
   list-style: none;
   padding: 0;
 }
 
-#why-us .teach-content ul li {
+ .teach-content ul li {
   padding-bottom: 10px;
 }
 
-#why-us .teach-content ul li i {
+ .teach-content ul li i {
   font-size: 20px;
   padding-right: 4px;
   padding-left: 5px;
@@ -1582,6 +1581,10 @@ section {
 
 #footer .footer-top .footer-links {
   margin-bottom: 30px;
+}
+
+.footer-links p{
+  font-size: 20px;
 }
 
 #footer .footer-top .footer-links ul {
