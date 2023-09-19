@@ -50,6 +50,13 @@ h6 {
 /* h4 .p-10{ 
   padding: 10px !important;
 } */
+#title{
+  
+}
+
+#title .adsTitle{
+margin-bottom: 0 !important;
+}
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -100,7 +107,7 @@ h6 {
   background: #fff;
   transition: all 0.5s;
   z-index: 997;
-  height: 90px;
+  height: 100px;
 }
 
 #header.header-transparent {
@@ -109,7 +116,7 @@ h6 {
 
 #header.header-scrolled {
   background: #fff;
-  height: 70px;
+  height: 85px;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
 }
 
