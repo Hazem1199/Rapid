@@ -50,12 +50,11 @@ h6 {
 /* h4 .p-10{ 
   padding: 10px !important;
 } */
-#title{
-  
+#title {
 }
 
-#title .adsTitle{
-margin-bottom: 0 !important;
+#title .adsTitle {
+  margin-bottom: 0 !important;
 }
 
 /*--------------------------------------------------------------
@@ -218,7 +217,7 @@ margin-bottom: 0 !important;
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover>a {
+.navbar li:hover > a {
   color: #1bb1dc;
 }
 
@@ -253,11 +252,11 @@ margin-bottom: 0 !important;
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover>a {
+.navbar .dropdown ul li:hover > a {
   color: #1bb1dc;
 }
 
-.navbar .dropdown:hover>ul {
+.navbar .dropdown:hover > ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -269,7 +268,7 @@ margin-bottom: 0 !important;
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover>ul {
+.navbar .dropdown .dropdown:hover > ul {
   opacity: 1;
   top: 0;
   left: 100%;
@@ -281,7 +280,7 @@ margin-bottom: 0 !important;
     left: -90%;
   }
 
-  .navbar .dropdown .dropdown:hover>ul {
+  .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
 }
@@ -352,7 +351,7 @@ margin-bottom: 0 !important;
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover>a {
+.navbar-mobile li:hover > a {
   color: #1bb1dc;
 }
 
@@ -391,15 +390,15 @@ margin-bottom: 0 !important;
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover>a,
+.navbar-mobile .dropdown ul li:hover > a,
 .navbar-mobile .dropdown .dropdown ul a:hover,
 .navbar-mobile .dropdown .dropdown ul .active:hover,
-.navbar-mobile .dropdown .dropdown ul li:hover>a {
+.navbar-mobile .dropdown .dropdown ul li:hover > a {
   color: #1bb1dc;
 }
 
-.navbar-mobile .dropdown>.dropdown-active,
-.navbar-mobile .dropdown .dropdown>.dropdown-active {
+.navbar-mobile .dropdown > .dropdown-active,
+.navbar-mobile .dropdown .dropdown > .dropdown-active {
   display: block;
 }
 
@@ -482,7 +481,7 @@ margin-bottom: 0 !important;
   background: #0a98c0;
 }
 
-#features .btn-get-started{
+#features .btn-get-started {
   font-family: "Montserrat", sans-serif;
   /* font-size: 13px; */
   font-weight: 600;
@@ -496,31 +495,30 @@ margin-bottom: 0 !important;
   background: #1bb1dc;
   color: #fff;
 }
-#features .btn-get-started:hover{
+#features .btn-get-started:hover {
   background: #0a98c0;
 }
 
-.scrollto{
+.scrollto {
   transform: scale(1);
-	animation: pulse 2s infinite;
-
+  animation: pulse 2s infinite;
 }
 
 @keyframes pulse {
-	0% {
-		transform: scale(0.95);
-		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
-	}
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+  }
 
-	70% {
-		transform: scale(1);
-		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
-	}
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+  }
 
-	100% {
-		transform: scale(0.95);
-		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-	}
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
 }
 
 /*--------------------------------------------------------------
@@ -839,36 +837,34 @@ section {
   color: #555186;
 }
 
-#features .why-us-content p,h4{
+#features .why-us-content p,
+h4 {
   line-height: 1.8;
-
 }
 
 /* teach-content Section
 --------------------------------*/
 
- .teach-content ul {
+.teach-content ul {
   list-style: none;
   padding: 0;
 }
 
- .teach-content ul li {
+.teach-content ul li {
   padding-bottom: 10px;
 }
 
- .teach-content ul li i {
+.teach-content ul li i {
   font-size: 20px;
   padding-right: 4px;
   padding-left: 5px;
   color: #1bb1dc;
   padding-top: 7px;
-
 }
 
 .teach-content ul li {
   position: relative;
   font-size: larger;
-
 }
 
 .teach-list {
@@ -909,7 +905,6 @@ section {
   right: -32;
   margin-right: 10px; /* Optional: add some space between the icon and the text */
 }
-
 
 /* Portfolio Section
 --------------------------------*/
@@ -1029,8 +1024,18 @@ section {
   background: #42c3e8;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover i {
+#portfolio
+  .portfolio-item
+  .portfolio-wrap
+  .portfolio-info
+  .link-preview:hover
+  i,
+#portfolio
+  .portfolio-item
+  .portfolio-wrap
+  .portfolio-info
+  .link-details:hover
+  i {
   color: #fff;
 }
 
@@ -1058,7 +1063,10 @@ section {
   position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -1066,7 +1074,10 @@ section {
   border: 1px solid #1bb1dc;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet-active {
   background-color: #1bb1dc;
 }
 
@@ -1089,7 +1100,7 @@ section {
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.portfolio-details .portfolio-info ul li + li {
   margin-top: 10px;
 }
 
@@ -1170,7 +1181,6 @@ section {
 }
 
 @media (max-width: 767px) {
-
   #testimonials .testimonial-item h3,
   #testimonials .testimonial-item h4,
   #testimonials .testimonial-item p {
@@ -1473,29 +1483,61 @@ section {
   transition: 0.6s;
 }
 
-
 /* -----------------------------
 refund
 --------------------------------- */
-#ref{
-  position: relative;
+#ref {
   background-color: lightskyblue;
   height: 30rem;
 }
 
-.refDiv{
+.refDiv {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.refDiv p{
+.refDiv p {
   font-weight: bold;
-  font-size: l;
+  
 }
 
-.refundImg{
-  margin-top: 50px ;
+.refundImg {
+  margin-top: 50px;
+}
+
+/* Media query for tablet */
+@media only screen and (min-width: 600px) {
+  .refDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .refDiv p {
+    font-weight: bold;
+  }
+}
+
+/* Media query for mobile */
+@media only screen and (max-width: 599px) {
+  #ref {
+    background-color: lightskyblue;
+    height: 20rem;
+  }
+  
+  .refDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .refDiv p {
+    font-weight: bold;
+    font-size: medium;
+  }
+  .h2Ref{
+    font-size: x-large;
+    text-align: center;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1523,11 +1565,11 @@ refund
   font-size: 14px;
 }
 
-.breadcrumbs ol li+li {
+.breadcrumbs ol li + li {
   padding-left: 10px;
 }
 
-.breadcrumbs ol li+li::before {
+.breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
   color: #555186;
@@ -1615,7 +1657,7 @@ refund
   margin-bottom: 30px;
 }
 
-.footer-links p{
+.footer-links p {
   font-size: 20px;
 }
 
@@ -1653,14 +1695,14 @@ refund
   margin-bottom: 30px;
 }
 
-#footer .footer-top .footer-newsletter input[type=email] {
+#footer .footer-top .footer-newsletter input[type="email"] {
   border: 0;
   padding: 6px 8px;
   width: 65%;
   border: 1px solid #d9dde6;
 }
 
-#footer .footer-top .footer-newsletter input[type=submit] {
+#footer .footer-top .footer-newsletter input[type="submit"] {
   background: #1bb1dc;
   border: 1px solid #1bb1dc;
   width: 35%;
@@ -1671,7 +1713,7 @@ refund
   cursor: pointer;
 }
 
-#footer .footer-top .footer-newsletter input[type=submit]:hover {
+#footer .footer-top .footer-newsletter input[type="submit"]:hover {
   background: #0a98c0;
 }
 
@@ -1692,7 +1734,7 @@ refund
   font-weight: 600;
 }
 
-#footer .php-email-form .error-message br+br {
+#footer .php-email-form .error-message br + br {
   margin-top: 25px;
 }
 
@@ -1745,7 +1787,7 @@ refund
   padding: 12px 15px;
 }
 
-#footer .php-email-form button[type=submit] {
+#footer .php-email-form button[type="submit"] {
   background: #1bb1dc;
   border: 0;
   border-radius: 3px;
@@ -1754,7 +1796,7 @@ refund
   transition: 0.3s;
 }
 
-#footer .php-email-form button[type=submit]:hover {
+#footer .php-email-form button[type="submit"]:hover {
   background: #0a98c0;
   cursor: pointer;
 }
@@ -1793,12 +1835,11 @@ refund
 
 /* chats */
 
-.chatBot{
+.chatBot {
   position: relative;
 }
 
-
-.chatBot .chats{
+.chatBot .chats {
   position: absolute;
   top: 10px;
 }
