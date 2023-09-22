@@ -1499,7 +1499,6 @@ refund
 
 .refDiv p {
   font-weight: bold;
-  
 }
 
 .refundImg {
@@ -1515,6 +1514,14 @@ refund
   }
   .refDiv p {
     font-weight: bold;
+    font-size: medium;
+
+  }
+  .h2Ref {
+    font-weight: bold;
+
+    font-size: x-large;
+    text-align: center;
   }
 }
 
@@ -1524,7 +1531,7 @@ refund
     background-color: lightskyblue;
     height: 20rem;
   }
-  
+
   .refDiv {
     display: flex;
     flex-direction: column;
@@ -1534,8 +1541,9 @@ refund
     font-weight: bold;
     font-size: medium;
   }
-  .h2Ref{
-    font-size: x-large;
+  .h2Ref {
+    font-weight: bold;
+    font-size: larger;
     text-align: center;
   }
 }
@@ -1623,8 +1631,8 @@ refund
   margin-right: 4px;
   border-radius: 50%;
   text-align: center;
-  width: 36px;
-  height: 36px;
+  width: 50px;
+  height: 50px;
   transition: 0.3s;
 }
 
@@ -1642,6 +1650,20 @@ refund
   #footer .footer-top .social-links a {
     margin-bottom: 25px;
   }
+  #footer .footer-top .all-footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  #footer .footer-top .footer-links {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  /* #footer .footer-top .social-links{
+    margin-top: 10px;
+  } */
 }
 
 #footer .footer-top h4 {
@@ -1654,7 +1676,7 @@ refund
 }
 
 #footer .footer-top .footer-links {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .footer-links p {
@@ -1810,7 +1832,11 @@ refund
     transform: rotate(360deg);
   }
 }
-
+@media (max-width: 574px) {
+#footer .form h1 , p{
+  text-align: center;
+}
+}
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
